@@ -1,0 +1,385 @@
+
+Full stack Data Science and AI: Beginner Python to Gen ai and prompt engineering
+
+Module 1: Introduction to AI and ML
+Definition and Scope of AI and ML
+Introduction to programming
+Starting with Google Collab
+Module 2: Programming with Python – Basics
+Why Python?
+Data Types and Type Conversion
+Variables
+Operators
+Conditional statements
+While Loops
+Infinite While Loops
+Nested While Loops
+Break keyword 
+For Loops
+Python Identifiers
+Function 
+Inbuilt vs User Defined
+Types of Function Arguments
+Global variable vs Local variable
+Anonymous Function | LAMBDA
+libraries
+Module 3: Python-Data Structures and Functions
+     3.1 List
+List creation to store multiple data-type values
+Retrieving an item from a list
+Item Replacement
+List comprehension
+List mutable concept
+Create nested list
+Functions:
+len(), append(), pop(), insert(), remove(), sort(), reverse()
+Indexing
+Forward indexing
+Backward indexing
+Slicing
+Forward slicing
+Backward slicing
+Step slicing
+    3.2 Dictionary 
+Create a dictionary 
+Creating a CSV file from python dictionary
+Keys: Values concept
+Important points about python dictionary
+Retrieving Keys,Values
+Retrieving Key-Value pair together
+Update Dictionary
+Checking whether an item exists in dictionary
+Functions
+len(), keys(), values(), items(), get(), pop(), update(),from_dict(),zip(),clear(),map()
+     3.3 Tuple
+Tuple creation
+Finding length of Tuple
+Slice a Tuple
+Retrieve items using Tuple indexing
+Tuple immutable concept
+Concatenate Tuples
+Unpacking
+Functions
+len(), count(), index(),sorted(),zip()
+Indexing
+Forward indexing
+Backward indexing
+     
+     
+     3.4 Set
+Set creation
+Functions
+len(), add(), remove(), pop(), union(), intersection(), difference()
+    3.5 String Operations 
+Common data structure operations on a string
+Create a multiline string
+Creating Patterns in strings
+Zero padding
+F-strings
+Replace a part of a string with another string item
+Mathematical operations inside place holders
+Performance of f-literal vs format()
+Create a well-punctuated string using the escape character
+Functions: strip(),split(),join(),capitalize(),lower(),title(),upper(),istitle(),replace()
+Module 4: Numpy
+Importance of Numpy in Data Science
+Creating Numpy Arrays
+From Lists and Tuples
+Using arange(), linspace(), and logspace()
+Using zeros(), ones(),full()
+From Random Numbers: random(),rand(),randn(),randint() 
+Array Attributes: shape, size, ndim, dtype, itemsize
+Basics Array Manipulation, Mathematical Operations, Indexing & Slicing
+Functions:
+add(),subtract(),multiply(), divide(),type(),arange(),linspace(),log(),abs(),reshape(),ravel(), flatten()
+Statistics using numpy array
+numpy.mean(), numpy.median(), numpy.std(), numpy.sum(), numpy.min(),corrcoef(),cov()
+Comparing performance of list and array
+Diagonal of a Matrix
+Trace of a Matrix
+Identity Matrix
+Multiplicative Inverse of a Matrix
+Determinant of a Matrix
+Adjoint Matrix
+Parsing, Adding and Subtracting Matrices
+Module 5: Pandas
+Introduction
+Series
+Creating Panda Series, Empty Series Object, Create series from List/Array/Column from DataFrame, Index in Series, Accessing values in Series
+Statistical Operations on Series
+NaN Value
+Keywords: Values, index, dtypes, size
+Python List vs Numpy Array vs Pandas Series
+Functions: head(), tail(), sum(), count(), nunique(),sort_values(),value_counts() 
+DataFrame 
+Introduction to DataFrames
+Creating DataFrames from Lists ,Dictionaries, Arrays 
+Creating DataFrames from CSV, Excel, and Other File Formats
+Common Attributes: shape, size, dtypes, index, columns
+Basic DataFrame Methods: head(), tail(), info(), describe()
+Accessing and Modifying Data: loc, iloc
+Adding and Dropping Columns and Rows
+Renaming Columns and Index
+Identifying Missing Data
+Handling Missing Data: fillna(), dropna()
+Replacing Values
+Filtering Data
+Sorting DataFrames
+Applying Functions: apply(), map()
+Grouping Data: groupby()
+Merging and Joining DataFrames
+Concatenating DataFrames
+Setting and Resetting Index
+MultiIndex (Hierarchical Indexing)
+Mathematical and Statistical Operations
+Aggregation Methods: sum(), mean(), count(), nunique(), etc.
+Pivot Tables and Cross-tabulations
+Transpose of a Dataframe
+Inplace Parameter
+The Ampersand (&) Logical Operator
+Module 6: Matplotlib
+Introduction to “pyplot”
+Basic Plot Functions: plot(), show(), title(), xlabel(), ylabel()
+Understanding Figures and Axes
+Setting Limits and Tick Labels
+Creating Multiple Plots in a Single Figure using subplots
+Adding Legends to Plots
+Different Types of Plots
+Line Graphs
+Bar Charts
+Histograms
+Scatter Plot
+Pie Chart
+Module 7: Seaborn
+Creating Basic Plots with Seaborn
+Setting Styles and Color Palettes
+Plotting with Seaborn
+Categorical Plots: barplot(),countplot(),boxplot() etc
+Distribution Plots: histplot(),pairplot() etc
+Relational Plots: scatterplot(),line plot()
+Regression Plots: regplot()
+Matrix Plots: heatmap()
+Annotation
+Using hue, size, and style for Multi-variable Plots
+Comparison with Matplotlib
+Module 8: Scipy
+Linear Algebra (scipy.linalg)
+Integration (scipy.integrate)
+Statistics (scipy.stats)
+
+Module 9: Exploratory Data Analysis(EDA) 
+
+      9.1 Introduction to EDA
+Definition and Importance
+Steps in EDA
+Tools (Pandas, Matplotlib, Seaborn, Plotly)
+     9.2  Data Collection and Preparation
+Loading Data (CSV, Excel, Databases)
+Data Structure Understanding
+Handling Missing Values
+Data Cleaning (Duplicates, Outliers, Standardization)
+     9.3  Data Profiling
+Summary Statistics (Mean, Median, Mode, Std Dev, Variance)
+Data Distribution 
+Data Types and Conversion
+      9.4  Univariate Analysis
+Frequency Distribution
+Visualizations (Histograms, Bar Plots, Box Plots, Violin Plots, KDE Plots)
+Central Tendency and Dispersion (Range, IQR, Std Dev, Variance)
+      9.5 Bivariate Analysis
+Relationship Types (Numerical vs Numerical, Numerical vs Categorical, Categorical vs Categorical)
+Visualizations (Scatter Plots, Pair Plots, Joint Plots, Heatmaps, Box Plots)
+Correlation (Pearson, Spearman, Kendall Tau)
+Covariance
+      9.6 Multivariate Analysis
+Techniques (PCA)
+Visualizations (Pair Plot Matrix, Heatmaps, 3D Scatter Plots)
+     9.7 Feature Engineering
+Creating New Features (Polynomial, Interaction, Aggregation)
+Encoding Categorical Variables (One-Hot, Label, Target)
+Scaling and Normalization (Standardization, Min-Max Scaling, Robust Scaling)
+Module 10: Mathematics
+     10.1 Linear Algebra
+Linear Equations
+Matrices
+Determinant
+Eigen Value and Eigenvector
+Euclidean Distance & Manhattan Distance
+     10.2 Calculus
+Derivatives (or Differentiation)
+Partial Differentiation
+Max & Min
+Indices & Logarithm
+Module 11: Statistics
+     11.1 Descriptive Statistics
+Measures of Central Tendency (Mean, Median, Mode)
+Measures of Variability (Range, Variance, Standard Deviation)
+Quartiles, Percentiles, Interquartile Range (IQR)
+Frequency Distribution Tables
+Histograms and Box Plots
+     11.2  Probability Basics
+Basic Probability Concepts
+Sample Spaces, Events, and Probability Axioms
+Conditional Probability
+Bayes' Theorem
+Random Variables and Probability Distributions
+     11.3 Statistical Distributions
+Discrete Distributions (Binomial, Poisson)
+Continuous Distributions (Normal, Exponential)
+Central Limit Theorem and Sampling Distributions
+     11.4  Hypothesis Testing
+Introduction to Hypothesis Testing
+Null and Alternative Hypotheses
+Z-Tests and T-Tests
+ Module 12: Machine Learning
+12.1 Introduction to Machine Learning
+Types of Machine learning: Supervised, Unsupervised, and Reinforcement Learning
+Discussion on different packages used for ML
+Working on Linear Regression: Understanding the regression technique
+Related concepts: Splitting the dataset into training and validation
+Case study based practical application of the technique on Python
+12.2 Simple Linear Regression
+Understanding about linear regression
+Simple linear regression
+Linear Regression Assumptions. 
+Best Fit line
+Cost Function
+Loss Optimization, Least squares.
+Gradient Descent Algorithm 
+Evaluation Metrics for Regression 
+Mean Absolute Error (MAE)
+Mean Squared Error (MSE)
+Root Mean Squared Error (RMSE)
+Mean-Squared Log Error (MSLE)
+R²
+Adjusted R²
+Residual (Error) Analysis
+Homoscedasticity & Heteroscedasticity
+Multicollinearity
+Variance Inflation Factor Math
+Recursive Feature Elimination (RFE)
+Multiple Linear Regression
+
+
+
+12.3  Logistic Regression 
+What is Logistic Regression?
+Types of Logistic Regression.
+Assumptions of Logistic Regression.
+Why not Linear Regression for Classification?
+The Logistic Model. (Sigmoid curve and activation function)
+Interpretation of the co-efficients.
+Decision Boundary.
+Cost Function of Logistic Regression.
+Gradient Descent in Logistic Regression.
+Evaluating the Logistic Regression Model.
+12.4 Support Vector Machine
+Support Vector Machine
+Introduction to Support Vector Machine
+Mathematical Approach
+Theory on hyperplane and kernels
+Kernel function
+Different kinds of kernels
+Practical application on Python
+12.5 Decision Tree
+Decision Tree
+Introduction to Decision tree
+Significance of using Decision Tree
+Different kinds of Decision Tree
+Procedure and technique of Decision Tree
+Practical application of Decision Tree on Python
+12.6 Random Forest Classifier
+Target and Feature Variable Separation
+Fitting the Model
+Evaluation Methods: Confusion Matrix,Precision and Recall, f1-score
+Classification using random forest on Python 
+12.7 Naïve Bayes
+Naïve Bayes
+Theory of classification
+Concept of probability: prior and posterior
+Bayes Theorem
+Mathematical concepts
+Limitation of Naïve Bayes
+Practical application on Python 
+12.8 K-Nearest Neighbours (Clustering)
+K-Nearest Neighbours
+Concept and theory
+Distance functions: Euclidean, Hamming, Minkowski
+Why should we use KNN?
+Mathematical approach
+Practical application on Python 
+ 12.9 Important Elements of Machine Learning
+Multiclass Classification
+One-vs-All
+Overfitting and Underfitting
+Error Measures
+Principal Component Analysis (PCA)
+Statistical Learning Approaches
+Introduction to SKLEARN Framework
+Module 13: Deep Learning & Introduction to Advanced Neural Network Architectures
+13.1 Introduction to Neural Networks
+Introduction to ANN
+Biological Neuron vs Artificial Neuron
+Structural ML vs Deep Learning 
+Perceptron 
+Perceptron Model
+Activation function
+Neural Network Structure 
+Multi Layer Perceptron and Deep Neural Network
+NN Training process/ working details
+Data Preparation
+Weights Initialisation
+Feed Forward Architecture
+Forward Propagation
+Activation Function
+Loss Calculation
+Back Propagation Algorithm
+Chain Rule
+Cost Function
+Gradient Descent Algorithm
+Learning Rate
+Different types of Activation functions
+Sigmoid
+Tanh
+ReLU and its variants
+Softmax Activation
+Other NN Training Concepts
+Over fitting 
+Under fitting
+Regularization Techniques
+Optimization algorithms
+Stochastic Gradient Descent
+Adam Optimizer
+13.2 Deep Learning Architectures
+Convolutional Neural Networks (CNN)
+Concept, striding, pooling, architecture, and implementation
+Recurrent Neural Networks (RNNs)
+Concept, architecture, and implementation
+Long Short-Term Memory (LSTM)
+Concept
+Applications of RNN and LSTM
+14. Gen AI
+Introduction to Generative AI 
+LLMs - intro to transformer Architecture &  how to use
+Working with Open-Source LLMs to solve use cases
+Prompt Engineering
+Agents & Future of GenAI
+
+Add ons:
+
+SQL
+
+
+ 
+         
+
+
+
+
+
+
+
+ 	
+
+
+
